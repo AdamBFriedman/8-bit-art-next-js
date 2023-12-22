@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Scrooge() {
   return (
     <div className="componentWrapper">

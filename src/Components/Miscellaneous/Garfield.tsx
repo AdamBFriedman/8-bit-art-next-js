@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Garfield() {
   return (
     <div className="componentWrapper">

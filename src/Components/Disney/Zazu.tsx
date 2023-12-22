@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Zazu() {
   return (
     <div className="componentWrapper">

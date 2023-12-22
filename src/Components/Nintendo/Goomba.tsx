@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Goomba() {
   return (
     <div className="componentWrapper">

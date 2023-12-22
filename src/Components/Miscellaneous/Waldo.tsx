@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Waldo() {
   return (
     <div className="componentWrapper">

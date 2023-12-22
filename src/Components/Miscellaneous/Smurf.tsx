@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Smurf() {
   return (
     <div className="componentWrapper">

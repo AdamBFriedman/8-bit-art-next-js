@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function BrianGriffin() {
   return (
     <div className="componentWrapper">

@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function RollingStones() {
   return (
     <div className="componentWrapper">

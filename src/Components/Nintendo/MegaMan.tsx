@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function MegaMan() {
   return (
     <div className="componentWrapper">

@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Ludwigvon() {
   return (
     <div className="componentWrapper">

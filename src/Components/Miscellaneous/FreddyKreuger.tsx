@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function FreddyKreuger() {
   return (
     <div className="componentWrapper">

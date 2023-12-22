@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Autobot() {
   return (
     <div className="componentWrapper">

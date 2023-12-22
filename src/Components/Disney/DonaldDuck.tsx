@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function DonaldDuck() {
   return (
     <div className="componentWrapper">

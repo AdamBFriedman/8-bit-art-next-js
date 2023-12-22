@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Michaeljackson() {
   return (
     <div className="componentWrapper">

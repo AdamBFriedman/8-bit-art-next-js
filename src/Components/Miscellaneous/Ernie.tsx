@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Ernie() {
   return (
     <div className="componentWrapper">

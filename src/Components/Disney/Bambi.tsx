@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Bambi() {
   return (
     <div className="componentWrapper">

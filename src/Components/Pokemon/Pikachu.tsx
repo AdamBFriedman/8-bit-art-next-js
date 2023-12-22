@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Pikachu() {
   return (
     <div className="componentWrapper">

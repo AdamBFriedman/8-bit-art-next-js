@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Thor() {
   return (
     <div className="componentWrapper">

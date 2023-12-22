@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function UCF() {
   return (
     <div className="componentWrapper">

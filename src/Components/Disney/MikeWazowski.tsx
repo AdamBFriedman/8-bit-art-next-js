@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function MikeWazowski() {
   return (
     <div className="componentWrapper">

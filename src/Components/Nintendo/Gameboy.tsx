@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Gameboy() {
   return (
     <div className="componentWrapper">

@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Squidward() {
   return (
     <div className="componentWrapper">

@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Goku() {
   return (
     <div className="componentWrapper">
