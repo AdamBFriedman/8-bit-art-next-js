@@ -30,6 +30,7 @@ import Garfield from '@/Components/Miscellaneous/Garfield';
 import GeorgeCostanza from '@/Components/Miscellaneous/GeorgeCostanza';
 import Goku from '@/Components/Miscellaneous/Goku';
 import GrumpyCat from '@/Components/Miscellaneous/GrumpyCat';
+import Jerry from '@/Components/Miscellaneous/Jerry';
 import KlayThompson from '@/Components/Miscellaneous/KlayThompson';
 import MichaelJackson from '@/Components/Miscellaneous/MichaelJackson';
 import MineCraftCreeper from '@/Components/Miscellaneous/MineCraftCreeper';
@@ -80,6 +81,7 @@ import Raphael from '@/Components/TMNT/Raphael';
 export default function Home() {
   return (
     <main className="mainWrapper">
+      <Jerry />
       <DocAndMarty />
       <KingHippo />
       <SheHulk />

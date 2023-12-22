@@ -1,4 +1,8 @@
 :root {
+  --jerryEar: #fab6a7;
+  --jerryFur: #d58a1d;
+  --jerryFur2: #f5c283;
+  --jerryMouth: #e66162;
   --docShoes: #572c01;
   --docPants: #5f605e;
   --docShirt: #83bbe4;
@@ -307,13 +311,6 @@ body {
   display: flex;
 }
 
-/* This will turn your visual grid on and off*/
-.wrapper div {
-  /*I need to keep this in when pushing for lint reasons (lint ignore not working)*/
-  margin: auto;
-  /* border: 0.51px solid black; */
-}
-
 .mario div,
 .ghost div,
 .flower div,
@@ -394,14 +391,30 @@ body {
 .tink div,
 .sheHulk div,
 .kingHippo div,
-.docAndMarty div {
+.docAndMarty,
+.jerry div {
   width: 4px;
   height: 4px;
 }
 
-.a div {
+/* This will turn your visual grid on and off*/
+.offForNow div {
   height: 10px;
   width: 10px;
+  border: 0.51px solid black;
+}
+
+.jerryEar {
+  background-color: var(--jerryEar);
+}
+.jerryFur {
+  background-color: var(--jerryFur);
+}
+.jerryFur2 {
+  background-color: var(--jerryFur2);
+}
+.jerryMouth {
+  background-color: var(--jerryMouth);
 }
 
 .docPants {
