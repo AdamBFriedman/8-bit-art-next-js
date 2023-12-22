@@ -44,6 +44,7 @@ import Rick from '@/Components/Miscellaneous/Rick';
 import RollingStones from '@/Components/Miscellaneous/RollingStones';
 import Ryu from '@/Components/Miscellaneous/Ryu';
 import Smurf from '@/Components/Miscellaneous/Smurf';
+import Snoopy from '@/Components/Miscellaneous/Snoopy';
 import UCF from '@/Components/Miscellaneous/UCF';
 import Waldo from '@/Components/Miscellaneous/Waldo';
 import Doug from '@/Components/Nickelodeon/Doug';
@@ -81,6 +82,7 @@ import Raphael from '@/Components/TMNT/Raphael';
 export default function Home() {
   return (
     <main className="mainWrapper">
+      <Snoopy />
       <Jerry />
       <DocAndMarty />
       <KingHippo />

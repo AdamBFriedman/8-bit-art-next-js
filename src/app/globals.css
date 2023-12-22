@@ -391,8 +391,9 @@ body {
 .tink div,
 .sheHulk div,
 .kingHippo div,
-.docAndMarty,
-.jerry div {
+.docAndMarty div,
+.jerry div,
+.snoopy div {
   width: 4px;
   height: 4px;
 }
