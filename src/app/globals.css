@@ -1,28 +1,285 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --docShoes: #572c01;
+  --docPants: #5f605e;
+  --docShirt: #83bbe4;
+  --docSkin: #dbbc79;
+  --martyHair: #8d5339;
+  --martyShirt: #bad8fe;
+  --martySkin: #ffdfbf;
+  --martyDenim: #3059a6;
+  --martyVest: #d3433a;
+  --smoke: #a4a4a3;
+  --kingHippoShorts: #db1000;
+  --kingHippoGloves: #f478fc;
+  --kingHippo: #ff9c39;
+  --sheHulkShirt: #892be2;
+  --sheHulkSkin: #008001;
+  --sheHulkHair: #002c06;
+  --tinkMouth: #90451b;
+  --tinkBrown: #b77d60;
+  --tinkWings: #abbbba;
+  --tinkGreen: #5e8e20;
+  --tinkHair: #e5bb57;
+  --tinkSkin: #f4d48d;
+  --dragonite: #f2b75b;
+  --dragoniteWing: #7bcab4;
+  --dragoniteSkin: #f1e5bb;
+  --princessPeachPink: #f796a9;
+  --princessPeachHair: #fdf003;
+  --princessPeachSkin: #f8ddc5;
+  --psyduck: #f6bd3c;
+  --psyduckBeak: #f5e5c1;
+  --psyduckShadow: #d2b9a2;
+  --blooperGrey: #b5b5b5;
+  --blooperEyes: #636363;
+  --ironManRed: #fd0005;
+  --ironManYellow: #f2f50d;
+  --ironManBlue: #8abee5;
+  --ironManGrey: #b3b7b7;
+  --genie: #5590df;
+  --genieDark: #093a6b;
+  --genieBrown: #965a22;
+  --genieGold: #d48f39;
+  --genieOrange: #f3912c;
+  --genieYellow: #f1eb61;
+  --frogMario: #2fb442;
+  --raccoonMario: #a65b19;
+  --doug: #fed1b2;
+  --cupheadRed: #ee0000;
+  --cupheadBlue: #1cb8e9;
+  --cupheadMouth: #f10000;
+  --bert: #f4bc43;
+  --bertShadow: #b6651e;
+  --bertNose: #f98138;
+  --ludwigVonHair: #184694;
+  --ludwigVonFace: #ecc397;
+  --ludwigVonBody: #e3b126;
+  --ludwigVonWand: #b7b7af;
+  --ludwigVonWandTip: #ef0906;
+  --ludwigVonEyes: #25983b;
+  --r2d2Blue: #4f648c;
+  --r2d2: #a4a4a3;
+  --r2d2Red: #bb2e50;
+  --juggernautSuit: #b20602;
+  --juggernautSkin: #f3d9c8;
+  --juggernautGrey: #484e45;
+  --juggernautGrey2: #a7abac;
+  --flashRed: #db0002;
+  --flashYellow: #eff71e;
+  --flashSkin: #e1b579;
+  --warriorsBlue: #006bb6;
+  --warriorsGold: #fdb927;
+  --klaySkin: #dcbf97;
+  --klayShoes: #715f66;
+  --basketball: #e8723c;
+  --mjSkin: #b27620;
+  --mjJacket: #a72533;
+  --simbaMane: #c24035;
+  --simbaFur: #f0db30;
+  --simbaEyes: #fafaae;
+  --simbaEar: #954935;
+  --simbaNose: #fe7152;
+  --simbaNose2: #673016;
+  --simbaMouth: #fefd9c;
+  --nalaFur: #eae9a8;
+  --nalaFur2: #cc9f5c;
+  --nalaEars: #7b4d2d;
+  --nalaEyes: #e3e2a6;
+  --nalaEyes2: #b9bd9b;
+  --nalaNose: #c9a5a8;
+  --nalaMouth: #747a6e;
+  --squidward: #bce1cf;
+  --squidwardEyes: #8acbab;
+  --squidwardMouth: #fc7d73;
+  --monopolyHat: #2c2c2c;
+  --monopolyBowtie: #f21224;
+  --monopolySkin: #f9c1aa;
+  --monopolyRibbon: #8d57a9;
+  --donaldHat: #0553a0;
+  --donaldEyes: #7bb2d4;
+  --donaldBeak: #e9f116;
+  --donaldMouth: #f79926;
+  --donaldTongue: #eec6d5;
+  --brianGriffinRed: #e24444;
+  --brianGriffinGreen: #57ec2b;
+  --brianGriffinGreen2: #adf289;
+  --brianGriffinYellow: #e9e948;
+  --ernieSkin: #fe9122;
+  --ernieEyes: #88bef1;
+  --ernieRed: #ef0102;
+  --ernieYellow: #eff416;
+  --ernieBlue: #0657ab;
+  --ernieBlue2: #8abfe7;
+  --ernieMouth: #f3c4d8;
+  --eminemHair: #eaf628;
+  --eminemSkin: #fed39c;
+  --eminemJacket: #a2ad9d;
+  --eminemPants: #7d7d7c;
+  --eminemWatch: #dcbc81;
+  --eminemRed: #f41300;
+  --rainbowRed: #fe0008;
+  --rainbowOrange: #fc8903;
+  --rainbowYellow: #fffc09;
+  --rainbowGreen: #81ff00;
+  --rainbowBlue: #00f8ff;
+  --rainbowIndigo: #c339ff;
+  --rainbowViolet: #ff48c0;
+  --rainbowViolet2: #f61fb0;
+  --koopaGreen: #009403;
+  --koopaOrange: #f99713;
+  --rollingStones: #fb0100;
+  --togepi: #d6b87a;
+  --togepiRed: #f80201;
+  --togepiBlue: #8abbe3;
+  --pringlesBrown: #883001;
+  --pringlesRed: #ff0501;
+  --captainAmericaBlue: #0458a7;
+  --captainAmericaRed: #fe0100;
+  --captainAmericaSkin: #d9bc83;
+  --rollingStones: #f60000;
+  --powerpuffYellow: #fded62;
+  --powerpuffBlue: #3db0e8;
+  --powerpuffSkin: #fcdcc9;
+  --mikeGreen1: #98bb05;
+  --mikeGreen2: #009d00;
+  --mikeOrange: #fb991a;
+  --ucf: #ba9b37;
+  --pikachu: #fcdd36;
+  --pikachuRed: #e11009;
+  --megamanDarkBlue: #507cd3;
+  --megamanLightBlue: #71badc;
+  --megamanShadow: #051b77;
+  --megamanSkin: #f0d0bb;
+  --wallELightGrey: #b6b4b9;
+  --wallEDarkGrey: #606060;
+  --wallEOrange: #f8972c;
+  --wallEGreen: #059702;
+  --wallEGreen2: #94bd07;
+  --qbertOrange: #fa961f;
+  --qbertRed: #fd040b;
+  --qbertEyes: #8fc1ea;
+  --steveHair: #60373a;
+  --steveSkin: #d6ad8c;
+  --steveShirt: #00c1fa;
+  --steveMouth: #936021;
+  --steveNose: #a47c4b;
+  --steveEyes: #7846c0;
+  --stevePants: #8174cb;
+  --stevePants2: #704db8;
+  --steveShoes: #656d70;
+  --flounderYellow: #ecee2e;
+  --flounderLightBlue: #87c0eb;
+  --flounderDarkBlue: #024fa7;
+  --flounderMouth: #fc0507;
+  --flounderEyes: #129900;
+  --bambiOrange: #ff9721;
+  --bambiBrown: #512b08;
+  --bambiTan: #dbbd83;
+  --bambiPink: #eac0d1;
+  --freddyBrown: #5b2b02;
+  --freddyOrange: #ff951f;
+  --freddySkin: #dabd70;
+  --freddyGreen: #00a103;
+  --freddyRed: #fe0100;
+  --freddyGrey: #636363;
+  --creeper: #53fe08;
+  --smurf: #074b8a;
+  --georgeEyes: #452416;
+  --georgeHair: #573417;
+  --georgeShoes: #492211;
+  --georgeSkin: #edc7a1;
+  --georgeSkin2: #da956b;
+  --georgeBeltBuckle: #f2c23a;
+  --georgeDarkGreen: #182e14;
+  --georgeLightGreen: #18481e;
+  --georgeShirtYellow: #fedb3e;
+  --georgeShirtGrey: #6a6154;
+  --georgePants: #6c615f;
+  --georgePantsOutline: #413332;
+  --adventureTime: #deba7b;
+  --grumpyCatOrange: #e28c4b;
+  --grumpyCatFur: #eddcc9;
+  --grumpyCatBlue: #b0c8ce;
+  --grumpyCatPink: #de8f95;
+  --deadpoolRed: #f9080f;
+  --deadpoolDarkGrey: #48474c;
+  --deadpoolLightGrey: #6f6a6e;
+  --gokuOrange: #e9680c;
+  --gokuYellow: #ffd430;
+  --gokuRed: #b6080b;
+  --gokuSkin: #f9c585;
+  --gokuBlue: #033e90;
+  --rickHair: #9ec1da;
+  --rickShirt: #92c2ca;
+  --rickPants: #7b6438;
+  --rickSkin: #e8d5c6;
+  --rickShoes: #333333;
+  --autobotLightGrey: #aeaeae;
+  --autobotDarkGrey: #636361;
+  --potLeafGreen1: #6be06a;
+  --potLeafGreen2: #2ca178;
+  --potLeafGreen3: #24bd6e;
+  --potLeafGreen4: #21b173;
+  --thorSkin: #facd8e;
+  --thorHammerBrown: #945620;
+  --thorHammerGrey: #808080;
+  --thorHelmetGrey: #5d7e8d;
+  --thorYellow: #ffea3e;
+  --thorRed: #ed422e;
+  --thorBlue: #0101f7;
+  --thorLightBlue: #0ab7de;
+  --garfieldBrown: #663000;
+  --garfieldOrange: #fd9621;
+  --garfieldYellow: #ebf116;
+  --garfieldPink: #e7bfca;
+  --ryuRed: #fa0401;
+  --ryuBeige: #d7bb7d;
+  --zazuBlue: #86c1ed;
+  --zazuBeige: #e3bc80;
+  --zazuRed: #ef0a01;
+  --zazuOrange: #fc941e;
+  --zazuYellow: #fdee08;
+  --ninjaTurtleGreen: #4c9c23;
+  --ninjaTurtlePurple: #995aa0;
+  --ninjaTurtleRed: #e3331c;
+  --ninjaTurtleOrange: #ea9500;
+  --ninjaTurtleBlue: #00aae6;
+  --bananaYellow: #f1f00f;
+  --triforceYellow: #e7e725;
+  --waldoRed: #d90300;
+  --waldoBeige: #e3c07e;
+  --marioGhostBlue: #8dc5e9;
+  --nesControllerGrey: #b6b1b4;
+  --nesControllerRed: #fc0106;
+  --plutoYellow: #e2e522;
+  --plutoRed: #ee0704;
+  --pacmanGhostBlue: #004b92;
+  --pacmanGhostRed: #da0102;
+  --goombaBrown: #582a01;
+  --goombaLightBrown: #d0b77e;
+  --gameboyRed: #d80000;
   --scroogeBlue: #4665ff;
   --scroogeTeal: #6bf9eb;
   --scroogeOrange: #fb9939;
   --scroogeRed: #fa0605;
   --scroogeYellow: #ddf21c;
   --scroogeBrown: #92380a;
+  --pokeBallRed: #fd0100;
+  --pokeBallGrey: #b7b7b7;
+  --mushroomRed: #ea0606;
+  --marioRed: #fe0002;
+  --ghostRed: #d73726;
+  --flowerOrange: #eb8131;
+  --flowerRed: #e13530;
+  --flowerDarkGreen: #49b450;
+  --flowerLightGreen: #b5e34d;
+  --marioSkin: #ffd987;
+  --marioHair: #6a0400;
+  --marioBlue: #0001fc;
+  --marioYellow: #fefa5c;
   --greyBackground: #b4b4b4;
   --white: #fff;
   --black: #000;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
 }
 
 * {
@@ -45,12 +302,93 @@ body {
 }
 
 /* This will turn your visual grid on and off*/
-/*eslint-disable-next-line*/
 .wrapper div {
+  /*I need to keep this in when pushing for lint reasons (lint ignore not working)*/
+  margin: auto;
   /* border: 0.51px solid black; */
 }
 
-.scrooge div {
+.mario div,
+.ghost div,
+.flower div,
+.mushroom div,
+.pokeball div,
+.scrooge div,
+.gameboy div,
+.goomba div,
+.pacmanGhost div,
+.pluto div,
+.batman div,
+.nesController div,
+.marioGhost div,
+.waldo div,
+.triforce div,
+.banana div,
+.donatello div,
+.michelangelo div,
+.leonardo div,
+.raphael div,
+.zazu div,
+.ryu div,
+.punisher div,
+.garfield div,
+.thor div,
+.potLeaf div,
+.autobot div,
+.rick div,
+.goku div,
+.deadpool div,
+.grumpyCat div,
+.adventureTime div,
+.george div,
+.smurf div,
+.creeper div,
+.freddy div,
+.bambi div,
+.flounder div,
+.steve div,
+.qbert div,
+.wallE div,
+.megaman div,
+.pikachu div,
+.ucf div,
+.mike div,
+.powerpuff div,
+.rollingStones div,
+.captainAmerica div,
+.pringles div,
+.togepi div,
+.rollingStones div,
+.powerpuff div,
+.koopa div,
+.rainbowStar div,
+.eminem div,
+.ernie div,
+.brianGriffin div,
+.donaldDuck div,
+.monopoly div,
+.squidward div,
+.lionKing div,
+.mj div,
+.klay div,
+.flash div,
+.juggernaut div,
+.r2d2 div,
+.ludwigVon div,
+.bert div,
+.cuphead div,
+.doug div,
+.raccoonMario div,
+.frogMario div,
+.genie div,
+.ironMan div,
+.blooperMario div,
+.marioWedding div,
+.dragonite div,
+.tink div,
+.sheHulk div,
+.kingHippo div,
+.docAndMarty div {
   width: 4px;
   height: 4px;
 }
@@ -58,6 +396,1042 @@ body {
 .a div {
   height: 10px;
   width: 10px;
+}
+
+.docPants {
+  background-color: var(--docPants);
+}
+
+.docShoes {
+  background-color: var(--docShoes);
+}
+
+.docShirt {
+  background-color: var(--docShirt);
+}
+
+.docSkin {
+  background-color: var(--docSkin);
+}
+
+.martyHair {
+  background-color: var(--martyHair);
+}
+
+.martyShirt {
+  background-color: var(--martyShirt);
+}
+
+.martySkin {
+  background-color: var(--martySkin);
+}
+
+.martyDenim {
+  background-color: var(--martyDenim);
+}
+
+.martyVest {
+  background-color: var(--martyVest);
+}
+
+.kingHippo {
+  background-color: var(--kingHippo);
+}
+
+.kingHippoGloves {
+  background-color: var(--kingHippoGloves);
+}
+
+.kingHippoShorts {
+  background-color: var(--kingHippoShorts);
+}
+
+.smoke {
+  background-color: var(--smoke);
+}
+
+.sheHulkHair {
+  background-color: var(--sheHulkHair);
+}
+
+.sheHulkShirt {
+  background-color: var(--sheHulkShirt);
+}
+
+.sheHulkSkin {
+  background-color: var(--sheHulkSkin);
+}
+
+.tinkMouth {
+  background-color: var(--tinkMouth);
+}
+
+.tinkWings {
+  background-color: var(--tinkWings);
+}
+
+.tinkGreen {
+  background-color: var(--tinkGreen);
+}
+
+.tinkSkin {
+  background-color: var(--tinkSkin);
+}
+.tinkBrown {
+  background-color: var(--tinkBrown);
+}
+
+.tinkHair {
+  background-color: var(--tinkHair);
+}
+
+.dragonite {
+  background-color: var(--dragonite);
+}
+
+.dragoniteWing {
+  background-color: var(--dragoniteWing);
+}
+
+.dragoniteSkin {
+  background-color: var(--dragoniteSkin);
+}
+
+.princessPeachPink {
+  background-color: var(--princessPeachPink);
+}
+
+.princessPeachHair {
+  background-color: var(--princessPeachHair);
+}
+
+.princessPeachSkin {
+  background-color: var(--princessPeachSkin);
+}
+
+.psyduck {
+  background-color: var(--psyduck);
+}
+
+.psyduckBeak {
+  background-color: var(--psyduckBeak);
+}
+
+.psyduckShadow {
+  background-color: var(--psyduckShadow);
+}
+
+.blooperGrey {
+  background-color: var(--blooperGrey);
+}
+
+.blooperEyes {
+  background-color: var(--blooperEyes);
+}
+
+.ironManRed {
+  background-color: var(--ironManRed);
+}
+
+.ironManYellow {
+  background-color: var(--ironManYellow);
+}
+
+.ironManBlue {
+  background-color: var(--ironManBlue);
+}
+
+.ironManGrey {
+  background-color: var(--ironManGrey);
+}
+
+.genie {
+  background-color: var(--genie);
+}
+
+.genieDark {
+  background-color: var(--genieDark);
+}
+
+.genieGold {
+  background-color: var(--genieGold);
+}
+
+.genieBrown {
+  background-color: var(--genieBrown);
+}
+
+.genieOrange {
+  background-color: var(--genieOrange);
+}
+
+.genieYellow {
+  background-color: var(--genieYellow);
+}
+
+.frogMario {
+  background-color: var(--frogMario);
+}
+
+.raccoonMario {
+  background-color: var(--raccoonMario);
+}
+
+.doug {
+  background-color: var(--doug);
+}
+
+.cupheadRed {
+  background-color: var(--cupheadRed);
+}
+
+.cupheadBlue {
+  background-color: var(--cupheadBlue);
+}
+
+.cupheadMouth {
+  background-color: var(--cupheadMouth);
+}
+
+.bert {
+  background-color: var(--bert);
+}
+
+.bertShadow {
+  background-color: var(--bertShadow);
+}
+
+.bertNose {
+  background-color: var(--bertNose);
+}
+
+.ludwigVonHair {
+  background-color: var(--ludwigVonHair);
+}
+
+.ludwigVonFace {
+  background-color: var(--ludwigVonFace);
+}
+
+.ludwigVonBody {
+  background-color: var(--ludwigVonBody);
+}
+
+.ludwigVonWand {
+  background-color: var(--ludwigVonWand);
+}
+
+.ludwigVonWandTip {
+  background-color: var(--ludwigVonWandTip);
+}
+
+.ludwigVonEyes {
+  background-color: var(--ludwigVonEyes);
+}
+
+.r2d2 {
+  background-color: var(--r2d2);
+}
+
+.r2d2Red {
+  background-color: var(--r2d2Red);
+}
+
+.r2d2Blue {
+  background-color: var(--r2d2Blue);
+}
+
+.juggernautSuit {
+  background-color: var(--juggernautSuit);
+}
+
+.juggernautSkin {
+  background-color: var(--juggernautSkin);
+}
+
+.juggernautGrey {
+  background-color: var(--juggernautGrey);
+}
+
+.juggernautGrey2 {
+  background-color: var(--juggernautGrey2);
+}
+
+.flashRed {
+  background-color: var(--flashRed);
+}
+
+.flashYellow {
+  background-color: var(--flashYellow);
+}
+
+.flashSkin {
+  background-color: var(--flashSkin);
+}
+
+.warriorsBlue {
+  background-color: var(--warriorsBlue);
+}
+
+.warriorsGold {
+  background-color: var(--warriorsGold);
+}
+
+.klaySkin {
+  background-color: var(--klaySkin);
+}
+
+.klayShoes {
+  background-color: var(--klayShoes);
+}
+
+.basketball {
+  background-color: var(--basketball);
+}
+
+.mjJacket {
+  background-color: var(--mjJacket);
+}
+
+.mjSkin {
+  background-color: var(--mjSkin);
+}
+
+.simbaMane {
+  background-color: var(--simbaMane);
+}
+
+.simbaFur {
+  background-color: var(--simbaFur);
+}
+
+.simbaEyes {
+  background-color: var(--simbaEyes);
+}
+
+.simbaEar {
+  background-color: var(--simbaEar);
+}
+
+.simbaNose {
+  background-color: var(--simbaNose);
+}
+
+.simbaNose2 {
+  background-color: var(--simbaNose2);
+}
+
+.simbaMouth {
+  background-color: var(--simbaMouth);
+}
+
+.nalaFur {
+  background-color: var(--nalaFur);
+}
+
+.nalaFur2 {
+  background-color: var(--nalaFur2);
+}
+
+.nalaEars {
+  background-color: var(--nalaEars);
+}
+
+.nalaEyes {
+  background-color: var(--nalaEyes);
+}
+
+.nalaEyes2 {
+  background-color: var(--nalaEyes2);
+}
+
+.nalaNose {
+  background-color: var(--nalaNose);
+}
+
+.nalaMouth {
+  background-color: var(--nalaMouth);
+}
+
+.squidward {
+  background-color: var(--squidward);
+}
+
+.squidwardEyes {
+  background-color: var(--squidwardEyes);
+}
+
+.squidwardMouth {
+  background-color: var(--squidwardMouth);
+}
+
+.monopolyHat {
+  background-color: var(--monopolyHat);
+}
+
+.monopolySkin {
+  background-color: var(--monopolySkin);
+}
+
+.monopolyRibbon {
+  background-color: var(--monopolyRibbon);
+}
+
+.monopolyBowtie {
+  background-color: var(--monopolyBowtie);
+}
+
+.donaldHat {
+  background-color: var(--donaldHat);
+}
+
+.donaldEyes {
+  background-color: var(--donaldEyes);
+}
+
+.donaldBeak {
+  background-color: var(--donaldBeak);
+}
+
+.donaldMouth {
+  background-color: var(--donaldMouth);
+}
+
+.donaldTongue {
+  background-color: var(--donaldTongue);
+}
+
+.brianGriffinRed {
+  background-color: var(--brianGriffinRed);
+}
+
+.brianGriffinGreen {
+  background-color: var(--brianGriffinGreen);
+}
+
+.brianGriffinGreen2 {
+  background-color: var(--brianGriffinGreen2);
+}
+
+.brianGriffinYellow {
+  background-color: var(--brianGriffinYellow);
+}
+
+.ernieSkin {
+  background-color: var(--ernieSkin);
+}
+
+.ernieEyes {
+  background-color: var(--ernieEyes);
+}
+
+.ernieRed {
+  background-color: var(--ernieRed);
+}
+
+.ernieYellow {
+  background-color: var(--ernieYellow);
+}
+
+.ernieBlue {
+  background-color: var(--ernieBlue);
+}
+
+.ernieBlue2 {
+  background-color: var(--ernieBlue2);
+}
+
+.ernieMouth {
+  background-color: var(--ernieMouth);
+}
+
+.eminemHair {
+  background-color: var(--eminemHair);
+}
+
+.eminemSkin {
+  background-color: var(--eminemSkin);
+}
+
+.eminemJacket {
+  background-color: var(--eminemJacket);
+}
+
+.eminemRed {
+  background-color: var(--eminemRed);
+}
+
+.eminemPants {
+  background-color: var(--eminemPants);
+}
+
+.eminemWatch {
+  background-color: var(--eminemWatch);
+}
+
+.rainbowRed {
+  background-color: var(--rainbowRed);
+}
+
+.rainbowOrange {
+  background-color: var(--rainbowOrange);
+}
+
+.rainbowYellow {
+  background-color: var(--rainbowYellow);
+}
+
+.rainbowGreen {
+  background-color: var(--rainbowGreen);
+}
+
+.rainbowBlue {
+  background-color: var(--rainbowBlue);
+}
+
+.rainbowIndigo {
+  background-color: var(--rainbowIndigo);
+}
+
+.rainbowViolet {
+  background-color: var(--rainbowViolet);
+}
+
+.rainbowViolet2 {
+  background-color: var(--rainbowViolet2);
+}
+
+.koopaGreen {
+  background-color: var(--koopaGreen);
+}
+
+.koopaOrange {
+  background-color: var(--koopaOrange);
+}
+
+.rollingStones {
+  background-color: var(--rollingStones);
+}
+
+.togepi {
+  background-color: var(--togepi);
+}
+
+.togepiRed {
+  background-color: var(--togepiRed);
+}
+
+.togepiBlue {
+  background-color: var(--togepiBlue);
+}
+
+.pringlesRed {
+  background-color: var(--pringlesRed);
+}
+
+.pringlesBrown {
+  background-color: var(--pringlesBrown);
+}
+
+.captainAmericaRed {
+  background-color: var(--captainAmericaRed);
+}
+
+.captainAmericaBlue {
+  background-color: var(--captainAmericaBlue);
+}
+
+.captainAmericaSkin {
+  background-color: var(--captainAmericaSkin);
+}
+
+.rollingStones {
+  background-color: var(--rollingStones);
+}
+
+.powerpuffBlue {
+  background-color: var(--powerpuffBlue);
+}
+
+.powerpuffSkin {
+  background-color: var(--powerpuffSkin);
+}
+
+.powerpuffYellow {
+  background-color: var(--powerpuffYellow);
+}
+
+.mikeGreen1 {
+  background-color: var(--mikeGreen1);
+}
+
+.mikeGreen2 {
+  background-color: var(--mikeGreen2);
+}
+
+.mikeOrange {
+  background-color: var(--mikeOrange);
+}
+
+.ucf {
+  background-color: #ba9b37;
+}
+
+.pikachu {
+  background-color: var(--pikachu);
+}
+
+.pikachuRed {
+  background-color: var(--pikachuRed);
+}
+
+.megamanDarkBlue {
+  background-color: var(--megamanDarkBlue);
+}
+
+.megamanLightBlue {
+  background-color: var(--megamanLightBlue);
+}
+
+.megamanShadow {
+  background-color: var(--megamanShadow);
+}
+
+.megamanSkin {
+  background-color: var(--megamanSkin);
+}
+
+.wallELightGrey {
+  background-color: var(--wallELightGrey);
+}
+
+.wallEDarkGrey {
+  background-color: var(--wallEDarkGrey);
+}
+
+.wallEOrange {
+  background-color: var(--wallEOrange);
+}
+
+.wallEGreen {
+  background-color: var(--wallEGreen);
+}
+
+.wallEGreen2 {
+  background-color: var(--wallEGreen2);
+}
+
+.qbertOrange {
+  background-color: var(--qbertOrange);
+}
+
+.qbertRed {
+  background-color: var(--qbertRed);
+}
+
+.qbertEyes {
+  background-color: var(--qbertEyes);
+}
+
+.steveHair {
+  background-color: var(--steveHair);
+}
+
+.steveSkin {
+  background-color: var(--steveSkin);
+}
+
+.steveShirt {
+  background-color: var(--steveShirt);
+}
+
+.steveMouth {
+  background-color: var(--steveMouth);
+}
+
+.steveNose {
+  background-color: var(--steveNose);
+}
+
+.steveEyes {
+  background-color: var(--steveEyes);
+}
+
+.stevePants {
+  background-color: var(--stevePants);
+}
+
+.stevePants2 {
+  background-color: var(--stevePants2);
+}
+
+.steveShoes {
+  background-color: var(--steveShoes);
+}
+
+.flounderLightBlue {
+  background-color: var(--flounderLightBlue);
+}
+
+.flounderYellow {
+  background-color: var(--flounderYellow);
+}
+
+.flounderDarkBlue {
+  background-color: var(--flounderDarkBlue);
+}
+
+.flounderMouth {
+  background-color: var(--flounderMouth);
+}
+
+.flounderEyes {
+  background-color: var(--flounderEyes);
+}
+
+.bambiBrown {
+  background-color: var(--bambiBrown);
+}
+
+.bambiOrange {
+  background-color: var(--bambiOrange);
+}
+
+.bambiTan {
+  background-color: var(--bambiTan);
+}
+
+.bambiPink {
+  background-color: var(--bambiPink);
+}
+
+.freddyBrown {
+  background-color: var(--freddyBrown);
+}
+
+.freddyOrange {
+  background-color: var(--freddyOrange);
+}
+
+.freddySkin {
+  background-color: var(--freddySkin);
+}
+
+.freddyRed {
+  background-color: var(--freddyRed);
+}
+
+.freddyGreen {
+  background-color: var(--freddyGreen);
+}
+
+.freddyGrey {
+  background-color: var(--freddyGrey);
+}
+
+.creeper {
+  background-color: var(--creeper);
+}
+
+.smurf {
+  background-color: var(--smurf);
+}
+
+.georgeEyes {
+  background-color: var(--georgeEyes);
+}
+
+.georgeHair {
+  background-color: var(--georgeHair);
+}
+
+.georgeShoes {
+  background-color: var(--georgeShoes);
+}
+
+.georgeSkin {
+  background-color: var(--georgeSkin);
+}
+
+.georgeSkin2 {
+  background-color: var(--georgeSkin2);
+}
+
+.georgeBeltBuckle {
+  background-color: var(--georgeBeltBuckle);
+}
+
+.georgeDarkGreen {
+  background-color: var(--georgeDarkGreen);
+}
+
+.georgeLightGreen {
+  background-color: var(--georgeLightGreen);
+}
+
+.georgeShirtGrey {
+  background-color: var(--georgeShirtGrey);
+}
+
+.georgeShirtYellow {
+  background-color: var(--georgeShirtYellow);
+}
+
+.georgePants {
+  background-color: var(--georgePants);
+}
+
+.georgePantsOutline {
+  background-color: var(--georgePantsOutline);
+}
+
+.adventureTime {
+  background-color: var(--adventureTime);
+}
+
+.grumpyCatOrange {
+  background-color: var(--grumpyCatOrange);
+}
+
+.grumpyCatBlue {
+  background-color: var(--grumpyCatBlue);
+}
+
+.grumpyCatFur {
+  background-color: var(--grumpyCatFur);
+}
+
+.grumpyCatPink {
+  background-color: var(--grumpyCatPink);
+}
+
+.deadpoolRed {
+  background-color: var(--deadpoolRed);
+}
+
+.deadpoolLightGrey {
+  background-color: var(--deadpoolLightGrey);
+}
+
+.deadpoolDarkGrey {
+  background-color: var(--deadpoolDarkGrey);
+}
+
+.gokuOrange {
+  background-color: var(--gokuOrange);
+}
+
+.gokuRed {
+  background-color: var(--gokuRed);
+}
+
+.gokuYellow {
+  background-color: var(--gokuYellow);
+}
+
+.gokuBlue {
+  background-color: var(--gokuBlue);
+}
+
+.gokuSkin {
+  background-color: var(--gokuSkin);
+}
+
+.rickHair {
+  background-color: var(--rickHair);
+}
+
+.rickSkin {
+  background-color: var(--rickSkin);
+}
+
+.rickShirt {
+  background-color: var(--rickShirt);
+}
+
+.rickPants {
+  background-color: var(--rickPants);
+}
+
+.rickShoes {
+  background-color: var(--rickShoes);
+}
+
+.autobotDarkGrey {
+  background-color: var(--autobotDarkGrey);
+}
+
+.autobotLightGrey {
+  background-color: var(--autobotLightGrey);
+}
+
+.potLeafGreen1 {
+  background-color: var(--potLeafGreen1);
+}
+
+.potLeafGreen2 {
+  background-color: var(--potLeafGreen2);
+}
+
+.potLeafGreen3 {
+  background-color: var(--potLeafGreen3);
+}
+
+.potLeafGreen4 {
+  background-color: var(--potLeafGreen4);
+}
+
+.thorSkin {
+  background-color: var(--thorSkin);
+}
+
+.thorHammerBrown {
+  background-color: var(--thorHammerBrown);
+}
+
+.thorHammerGrey {
+  background-color: var(--thorHammerGrey);
+}
+.thorHelmetGrey {
+  background-color: var(--thorHelmetGrey);
+}
+.thorYellow {
+  background-color: var(--thorYellow);
+}
+.thorBlue {
+  background-color: var(--thorBlue);
+}
+
+.thorLightBlue {
+  background-color: var(--thorLightBlue);
+}
+
+.thorRed {
+  background-color: var(--thorRed);
+}
+
+.garfieldBrown {
+  background-color: var(--garfieldBrown);
+}
+
+.garfieldOrange {
+  background-color: var(--garfieldOrange);
+}
+
+.garfieldYellow {
+  background-color: var(--garfieldYellow);
+}
+
+.garfieldPink {
+  background-color: var(--garfieldPink);
+}
+
+.ryuRed {
+  background-color: var(--ryuRed);
+}
+
+.ryuBeige {
+  background-color: var(--ryuBeige);
+}
+
+.zazuBlue {
+  background-color: var(--zazuBlue);
+}
+
+.zazuBeige {
+  background-color: var(--zazuBeige);
+}
+
+.zazuRed {
+  background-color: var(--zazuRed);
+}
+
+.zazuOrange {
+  background-color: var(--zazuOrange);
+}
+
+.zazuYellow {
+  background-color: var(--zazuYellow);
+}
+
+.ninjaTurtleGreen {
+  background-color: var(--ninjaTurtleGreen);
+}
+
+.ninjaTurtlePurple {
+  background-color: var(--ninjaTurtlePurple);
+}
+
+.ninjaTurtleRed {
+  background-color: var(--ninjaTurtleRed);
+}
+
+.ninjaTurtleOrange {
+  background-color: var(--ninjaTurtleOrange);
+}
+
+.ninjaTurtleBlue {
+  background-color: var(--ninjaTurtleBlue);
+}
+
+.bananaYellow {
+  background-color: var(--bananaYellow);
+}
+
+.bananaYellow {
+  background-color: var(--bananaYellow);
+}
+
+.triforceYellow {
+  background-color: var(--triforceYellow);
+}
+
+.waldoRed {
+  background-color: var(--waldoRed);
+}
+
+.waldoBeige {
+  background-color: var(--waldoBeige);
+}
+
+.marioGhostBlue {
+  background-color: var(--marioGhostBlue);
+}
+
+.nesControllerGrey {
+  background-color: var(--nesControllerGrey);
+}
+
+.nesControllerRed {
+  background-color: var(--nesControllerRed);
+}
+
+.plutoYellow {
+  background-color: var(--plutoYellow);
+}
+
+.plutoRed {
+  background-color: var(--plutoRed);
+}
+
+.pacmanGhostBlue {
+  background-color: var(--pacmanGhostBlue);
+}
+
+.pacmanGhostRed {
+  background-color: var(--pacmanGhostRed);
+}
+
+.goombaBrown {
+  background-color: var(--goombaBrown);
+}
+
+.goombaLightBrown {
+  background-color: var(--goombaLightBrown);
+}
+
+.gameboyRed {
+  background-color: var(--gameboyRed);
 }
 
 .scroogeBlue {
@@ -84,14 +1458,66 @@ body {
   background-color: var(--scroogeBrown);
 }
 
+.pokeBallRed {
+  background-color: var(--pokeBallRed);
+}
+
+.pokeBallGrey {
+  background-color: var(--pokeBallGrey);
+}
+
+.mushroomRed {
+  background-color: var(--mushroomRed);
+}
+
+.flowerOrange {
+  background-color: var(--flowerOrange);
+}
+
+.flowerRed {
+  background-color: var(--flowerRed);
+}
+
+.flowerLightGreen {
+  background-color: var(--flowerLightGreen);
+}
+
+.flowerDarkGreen {
+  background-color: var(--flowerDarkGreen);
+}
+
 .greyBackground {
   background-color: var(--greyBackground);
 }
 
-.black {
-  background-color: var(--black);
+.marioRed {
+  background-color: var(--marioRed);
+}
+
+.ghostRed {
+  background-color: var(--ghostRed);
+}
+
+.marioBlue {
+  background-color: var(--marioBlue);
+}
+
+.marioSkin {
+  background-color: var(--marioSkin);
+}
+
+.marioHair {
+  background-color: var(--marioHair);
+}
+
+.marioYellow {
+  background-color: var(--marioYellow);
 }
 
 .white {
   background-color: var(--white);
+}
+
+.black {
+  background-color: var(--black);
 }
