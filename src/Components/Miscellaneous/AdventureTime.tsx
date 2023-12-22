@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AdventureTime() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="adventureTime wrapper">
         <div className="white"></div>
         <div className="white"></div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Koopa() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="koopa wrapper">
         <div className="white"></div>
         <div className="white"></div>

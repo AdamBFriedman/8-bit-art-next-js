@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function BananaPeel() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="banana wrapper">
         <div className="white"></div>
         <div className="white"></div>

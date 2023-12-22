@@ -79,13 +79,7 @@ import Raphael from '@/Components/TMNT/Raphael';
 
 export default function Home() {
   return (
-    <main
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        flexWrap: 'wrap',
-      }}
-    >
+    <main className="mainWrapper">
       <DocAndMarty />
       <KingHippo />
       <SheHulk />

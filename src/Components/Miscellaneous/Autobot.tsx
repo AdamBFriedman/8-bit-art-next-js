@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Autobot() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="autobot wrapper">
         <div className="white"></div>
         <div className="white"></div>

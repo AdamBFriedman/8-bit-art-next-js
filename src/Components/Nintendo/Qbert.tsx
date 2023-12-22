@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Qbert() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="qbert wrapper">
         <div className="white"></div>
         <div className="white"></div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Flash() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="flash wrapper">
         <div className="white"></div>
         <div className="white"></div>

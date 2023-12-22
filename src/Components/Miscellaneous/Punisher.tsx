@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Punisher() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="punisher wrapper">
         <div className="white"></div>
         <div className="white"></div>

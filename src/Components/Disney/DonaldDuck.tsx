@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function DonaldDuck() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="donaldDuck wrapper">
         <div className="white"></div>
         <div className="white"></div>

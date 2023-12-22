@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Cuphead() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="cuphead wrapper">
         <div className="white"></div>
         <div className="white"></div>

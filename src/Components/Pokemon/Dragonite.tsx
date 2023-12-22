@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 export default function Dragonite() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="dragonite wrapper">
         <div className="white"></div>
         <div className="white"></div>

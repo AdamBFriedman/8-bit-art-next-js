@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Donatello() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="donatello wrapper">
         <div className="white"></div>
         <div className="white"></div>

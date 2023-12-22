@@ -293,7 +293,13 @@ body {
   flex-wrap: wrap;
 }
 
-.mb {
+.mainWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.componentWrapper {
   margin: 1em;
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Batman() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="batman wrapper">
         <div className="black"></div>
         <div className="black"></div>

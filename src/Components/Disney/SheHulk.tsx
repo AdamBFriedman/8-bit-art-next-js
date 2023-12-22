@@ -1,7 +1,7 @@
 export default function SheHulk() {
   return (
     <>
-      <div className="mb">
+      <div className="componentWrapper">
         <div className="sheHulk wrapper">
           <div className="white"></div>
           <div className="white"></div>

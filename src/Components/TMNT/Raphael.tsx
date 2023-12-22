@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Raphael() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="raphael wrapper">
         <div className="white"></div>
         <div className="white"></div>

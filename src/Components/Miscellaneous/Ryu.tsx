@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Ryu() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="ryu wrapper">
         <div className="greyBackground"></div>
         <div className="greyBackground"></div>

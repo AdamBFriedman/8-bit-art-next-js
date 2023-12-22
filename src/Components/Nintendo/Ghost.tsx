@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Ghost() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="ghost wrapper">
         <div className="white"></div>
         <div className="white"></div>

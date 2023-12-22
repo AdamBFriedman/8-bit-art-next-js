@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Controller() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="nesController wrapper">
         <div className="nesControllerGrey"></div>
         <div className="nesControllerGrey"></div>

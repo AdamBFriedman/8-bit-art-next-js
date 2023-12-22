@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Pikachu() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="pikachu wrapper">
         <div className="white"></div>
         <div className="white"></div>

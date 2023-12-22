@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Gameboy() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="gameboy wrapper">
         <div className="white"></div>
         <div className="gameboyRed"></div>

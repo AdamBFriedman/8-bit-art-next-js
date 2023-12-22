@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function RD() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="r2d2 wrapper">
         <div className="white"></div>
         <div className="white"></div>

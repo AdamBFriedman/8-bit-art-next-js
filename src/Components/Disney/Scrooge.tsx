@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Scrooge() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="scrooge wrapper">
         <div className="greyBackground"></div>
         <div className="greyBackground"></div>

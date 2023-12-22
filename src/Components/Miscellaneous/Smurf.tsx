@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Smurf() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="smurf wrapper">
         <div className="white"></div>
         <div className="white"></div>

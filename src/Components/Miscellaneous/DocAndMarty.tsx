@@ -1,6 +1,6 @@
 function DocAndMarty() {
   return (
-    <div className="mb">
+    <div className="componentWrapper">
       <div className="docAndMarty wrapper">
         <div className="white"></div>
         <div className="white"></div>
