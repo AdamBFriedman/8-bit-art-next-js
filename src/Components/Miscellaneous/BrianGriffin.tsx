@@ -1,5 +1,5 @@
 import PixelArt from '@/Components/PixelArt/PixelArt';
-import { brianGriffinGrid } from '@/Data/Characters/brianGriffin';
+import { brianGriffinGrid } from '@/Data/Characters/Miscellaneous/brianGriffin';
 
 export default function BrianGriffin() {
   return (

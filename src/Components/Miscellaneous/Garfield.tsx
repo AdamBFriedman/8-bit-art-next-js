@@ -1,5 +1,5 @@
 import PixelArt from '@/Components/PixelArt/PixelArt';
-import { garfieldGrid } from '@/Data/Characters/garfield';
+import { garfieldGrid } from '@/Data/Characters/Miscellaneous/garfield';
 
 export default function Garfield() {
   return <PixelArt className="garfield" grid={garfieldGrid} />;

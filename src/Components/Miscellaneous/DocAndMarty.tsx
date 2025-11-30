@@ -1,5 +1,5 @@
 import PixelArt from '@/Components/PixelArt/PixelArt';
-import { docAndMartyGrid } from '@/Data/Characters/docAndMarty';
+import { docAndMartyGrid } from '@/Data/Characters/Miscellaneous/docAndMarty';
 
 export default function DocAndMarty() {
   return <PixelArt className="docAndMarty" grid={docAndMartyGrid} />;

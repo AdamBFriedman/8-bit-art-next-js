@@ -1,5 +1,5 @@
 import PixelArt from '@/Components/PixelArt/PixelArt';
-import { adventureTimeGrid } from '@/Data/Characters/adventureTime';
+import { adventureTimeGrid } from '@/Data/Characters/Miscellaneous/adventureTime';
 
 export default function AdventureTime() {
   return (
