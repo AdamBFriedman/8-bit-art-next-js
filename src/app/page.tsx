@@ -7,7 +7,7 @@ import MikeWazowski from '@/Components/Disney/MikeWazowski';
 import Pluto from '@/Components/Disney/Pluto';
 import Scrooge from '@/Components/Disney/Scrooge';
 import SheHulk from '@/Components/Disney/SheHulk';
-import Tinkerbell from '@/Components/Disney/Tinkerbell';
+import TinkerBell from '@/Components/Disney/Tinkerbell';
 import WallE from '@/Components/Disney/WallE';
 import Zazu from '@/Components/Disney/Zazu';
 import CaptainAmerica from '@/Components/Marvel/CaptainAmerica';
@@ -87,7 +87,7 @@ export default function Home() {
       <DocAndMarty />
       <KingHippo />
       <SheHulk />
-      <Tinkerbell />
+      <TinkerBell />
       <Dragonite />
       <MarioWedding />
       <MarioBlooper />
